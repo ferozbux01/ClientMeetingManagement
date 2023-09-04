@@ -1,0 +1,13 @@
+<h1>Add a new Meeting Details</h1>
+<div class="form">
+    <h2>New Meeting</h2>
+
+<form>
+    <tr><td>Name</td><td><input type="text" [(ngModel)]="name" name="name"></td></tr>
+    <tr><td>Topic</td><td><input type="text" [(ngModel)]="topic" name="topic"></td></tr>
+    <tr><td>No. of People</td><td><input type="number" [(ngModel)]="people" name="people"></td></tr>
+    <tr><td>Date</td><td><input type="date" [(ngModel)]="date" name="date"></td></tr>
+    <tr><td>Time</td><td><input type="time" [(ngModel)]="time" name="time"></td></tr>
+    <tr><td></td><td><input id="Submit" type="button" value="Submit" (click)="addMeeting()">
+</form>
+</div>

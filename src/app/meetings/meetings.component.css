@@ -1,0 +1,46 @@
+table{
+    margin: auto;
+    margin-top: 35px;
+    text-align: center;
+    width: 100%;
+}
+thead{
+    background-color: #dfdfdf;
+}
+td{
+    padding: 10px;
+}
+th{
+    padding: 10px;
+}
+#Delete{
+    background-color: #dc3545;
+}
+#Edit{
+    background-color: #0d6efd;
+}
+#add{
+    background-color: rgb(10, 129, 10);
+}
+input#Edit{
+    border: unset;
+    border-radius: 5px;
+    color: white;
+    width: 102px;
+    margin: 10px;
+}
+@media screen and (max-width:720px) {
+    table {
+        table-layout: fixed;
+        font-size: 12px;
+      } 
+      td{
+        padding: 3px;
+        font-size: 10px;
+
+      }
+      th{
+        font-size: 11px;
+      }
+
+}
